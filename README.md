@@ -45,7 +45,6 @@ Example:
 }
 ```
 
----
 
 ## Refinement Support
 The agent supports conversational refinement.
