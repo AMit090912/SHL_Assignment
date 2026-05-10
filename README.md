@@ -15,6 +15,7 @@ The agent supports:
 # Features
 
 ## Clarification Handling
+
 The agent asks follow-up questions when the user query is too vague.
 
 Example:
@@ -28,8 +29,12 @@ Example:
     }
   ]
 }
+```
+
+---
 
 ## Assessment Recommendations
+
 The agent recommends between 1 and 10 SHL assessments using catalog-grounded retrieval.
 
 Example:
@@ -45,8 +50,10 @@ Example:
 }
 ```
 
+---
 
 ## Refinement Support
+
 The agent supports conversational refinement.
 
 Example:
@@ -58,6 +65,7 @@ Actually add personality assessments
 ---
 
 ## Comparison Support
+
 The agent can compare assessments when requested.
 
 Example:
@@ -69,6 +77,7 @@ What is the difference between OPQ and GSA?
 ---
 
 ## Safety & Scope Control
+
 The agent:
 - Only discusses SHL assessments
 - Refuses off-topic questions
