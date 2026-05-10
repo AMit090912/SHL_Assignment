@@ -7,7 +7,12 @@ from app.catalog_loader import load_catalog
 from app.state_extractor import extract_state
 
 app = FastAPI()
+@app.get("/")
+def root():
 
+    return {
+        "message": "SHL Assessment Recommendation API"
+    }
 catalog = load_catalog()
 
 
